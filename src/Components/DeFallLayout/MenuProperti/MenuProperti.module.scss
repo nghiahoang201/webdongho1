@@ -1,0 +1,230 @@
+.wrapper-MenuProductBst {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    border: 1px solid #d6d6d4;
+    animation: all linear 0.2s;
+}
+
+.wrapper-MenuProductSize {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    border: 1px solid #d6d6d4;
+    animation: all linear 0.2s;
+}
+
+.wrapper-MenuProductColor {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    border: 1px solid #d6d6d4;
+    animation: all linear 0.2s;
+}
+
+.wrapper-MenuProductClday {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    border: 1px solid #d6d6d4;
+    animation: all linear 0.2s;
+}
+
+.wrapper-menuSx {
+    position: absolute;
+    top: 76px;
+    right: 0;
+    z-index: 5;
+    animation: all linear 0.2s;
+}
+
+@keyframes all {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+    to {
+        top: 76px;
+        opacity: 1;
+    }
+}
+
+.MenuProductBst-items {
+    width: 100%;
+    background-color: var(--colorweb);
+    padding: 0 40px;
+}
+
+.MenuProductBst-item {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.MenuProductBst-item-btn {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+
+    &:hover .MenuProductBst-item-text {
+        opacity: 0.7;
+    }
+}
+
+.MenuProductBst-item-img {
+    width: 110px;
+    min-width: 100%;
+    max-width: 100%;
+    height: 110px;
+    min-height: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    background-color: #ecebea;
+}
+
+.MenuProductBst-size {
+    width: 110px;
+    min-width: 100%;
+    max-width: 100%;
+    height: 110px;
+    min-height: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    background-color: #ecebea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 3.4rem;
+    line-height: 2rem;
+    color: var(--colorText);
+    padding: 0;
+    margin: 0 auto;
+}
+
+.MenuProductBst-item-color {
+    width: 40px;
+    min-width: 100%;
+    max-width: 100%;
+    height: 40px;
+    min-height: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    background-color: #ecebea;
+}
+
+.MenuProductBst-item-clday {
+    width: 110px;
+    min-width: 100%;
+    max-width: 100%;
+    height: 110px;
+    min-height: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    border: 1px solid var(--colorText);
+}
+
+.MenuProductBst-item-text {
+    margin-top: 12px;
+    color: var(--colorText);
+    font-size: 1.6rem;
+}
+
+.MenuFilter-Desktop {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-top: 1px solid #d6d6d4;
+}
+
+.MenuFilter-Desktop-check {
+    margin: 0;
+    color: var(--colorText);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6rem;
+
+    span {
+        margin-right: 6px;
+
+        input {
+            cursor: pointer;
+        }
+    }
+}
+
+.MenuFilter-Desktop-text {
+    font-style: italic;
+    margin: 0;
+    color: var(--colorText);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.MenuFilter-Desktop-btn {
+    cursor: pointer;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    color: var(--colorText);
+    padding: 1px 6px;
+}
+
+.menuSx-items {
+    width: 180px;
+    padding: 8px 0;
+    background-color: #fff;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 13%), 0 0.6px 2px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.menuSx-item {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ecebea;
+    }
+
+    span {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        color: var(--colorText);
+        opacity: 0.8;
+    }
+}
+
+.menuSx-check {
+    display: none;
+}
+
+.menuSx-check-of {
+    display: block;
+}

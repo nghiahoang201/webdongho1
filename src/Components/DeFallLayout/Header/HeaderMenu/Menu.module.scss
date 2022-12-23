@@ -1,0 +1,373 @@
+.wrapper-menu-header {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    height: 460px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--colorweb);
+    cursor: default;
+    z-index: 100;
+    border-bottom: 1px solid #eeefee;
+}
+
+@keyframes animition {
+    from {
+        transform: translateX(10px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.menu-header-left {
+    padding: 16px 64px 16px 0;
+    border-right: 1px solid #cacbca;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    text-transform: uppercase;
+}
+
+.menu-items-text {
+    display: flex;
+    flex-direction: column;
+
+    &:hover .menu-item-text-hover {
+        color: var(--colorText);
+    }
+}
+
+// hover
+
+.menu-item-hover-pk:hover .header-menu-pk-items {
+    display: block;
+}
+
+.menu-item-hover-pk:hover .header-menu-pk-nu-items {
+    display: block;
+}
+
+.menu-item-hover-daydh:hover .header-menu-daydh-items {
+    display: block;
+}
+
+.menu-item-texts {
+    text-decoration: none;
+}
+
+.menu-item-text {
+    font-size: 3.4rem;
+    color: var(--colorTextMo);
+    text-decoration: none;
+    font-weight: 700;
+
+    &:hover {
+        color: var(--colorText);
+    }
+}
+
+.menu-item-text1 {
+    font-size: 1.4rem;
+    color: var(--colorTextMo);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+// header right
+
+.menu-header-right {
+    margin: 0 0 0 64px;
+    padding: 26px 0;
+    width: 790px;
+    position: relative;
+    animation: animition 0.2s linear;
+}
+
+.header-items-right {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 36px;
+    row-gap: 36px;
+    cursor: default;
+}
+
+.header-items-right {
+    text-decoration: none;
+}
+
+.header-item-right {
+    font-weight: 400;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-2px);
+        color: var(--colorText);
+    }
+}
+
+.header-item-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--colorText);
+    font-size: 1.6rem;
+    width: 127px;
+    height: 146px;
+}
+
+.header-image-right {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #ecebea;
+}
+
+.header-item-right span {
+    margin-top: 12px;
+}
+
+// header-menu-pk
+
+.header-menu-pk-items {
+    position: fixed;
+    top: 80px;
+    right: 168px;
+    height: 406px;
+    z-index: 1;
+    background-color: var(--colorweb);
+    display: none;
+    cursor: default;
+    animation: animition 0.2s linear;
+
+    &::before {
+        content: '';
+        width: 150px;
+        height: 70px;
+        position: absolute;
+        top: 160px;
+        left: -150px;
+    }
+}
+
+.header-menu-pk {
+    margin: 0 0 0 64px;
+    padding: 66px 0;
+    width: 790px;
+}
+
+.header-pk {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 36px;
+    row-gap: 36px;
+    cursor: default;
+}
+
+.header-pk-items {
+    display: flex;
+}
+
+.header-pk-item-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--colorText);
+    font-weight: 400;
+    font-size: 1.6rem;
+    width: 127px;
+    height: 146px;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-2px);
+        color: var(--colorText);
+    }
+}
+
+.header-pk-item-right span {
+    margin-top: 12px;
+}
+
+.header-pk-item-right7 {
+    margin-right: 36px;
+}
+
+.header-pk-image-right {
+    width: 110px;
+    height: 110px;
+}
+
+// header-menu-pk-nu
+
+.header-menu-pk-nu-items {
+    position: fixed;
+    top: 80px;
+    right: 168px;
+    height: 406px;
+    z-index: 1;
+    background-color: var(--colorweb);
+    display: none;
+    cursor: default;
+    animation: animition 0.2s linear;
+
+    &::before {
+        content: '';
+        width: 150px;
+        height: 70px;
+        position: absolute;
+        top: 160px;
+        left: -150px;
+    }
+}
+
+.header-menu-pk-nu {
+    margin: 0 0 0 64px;
+    padding: 56px 0;
+    width: 790px;
+}
+
+.header-pk-nu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 36px;
+    row-gap: 36px;
+}
+
+.header-pk-nu-items {
+    display: flex;
+}
+
+.header-pk-nu-item-right {
+    text-decoration: none;
+    color: var(--colorText);
+    font-weight: 400;
+    font-size: 1.6rem;
+    width: 380px;
+    height: 266px;
+    padding: 30px;
+}
+
+.header-pk-nu-item-right-text {
+    width: 240px;
+    height: 150px;
+    text-transform: none;
+    margin-bottom: 30px;
+    cursor: text;
+}
+
+.header-pk-nu-item-right-buying {
+    text-decoration: none;
+    font-size: 1.6rem;
+    background-color: var(--colorText);
+    padding: 12px 34px;
+    font-weight: 700;
+    color: #fff;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.header-pk-nu-image-right {
+    min-width: 39%;
+    max-width: 39%;
+    min-height: 96%;
+    max-height: 96%;
+    margin-right: 30px;
+    cursor: default;
+}
+
+// header-menu-daydh
+
+.header-menu-daydh-items {
+    position: fixed;
+    top: 80px;
+    right: 168px;
+    height: 406px;
+    z-index: 1;
+    background-color: var(--colorweb);
+    display: none;
+    cursor: default;
+    animation: animition 0.2s linear;
+
+    &::before {
+        content: '';
+        width: 130px;
+        height: 70px;
+        position: absolute;
+        top: 250px;
+        left: -130px;
+    }
+}
+
+.header-menu-daydh {
+    margin: 0 0 0 64px;
+    padding: 56px 0;
+    width: 790px;
+}
+
+.header-daydh {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 36px;
+    row-gap: 36px;
+}
+
+.header-daydh-items {
+    display: flex;
+}
+
+.header-daydh-item-right {
+    text-decoration: none;
+    color: var(--colorText);
+    font-weight: 400;
+    font-size: 1.6rem;
+    width: 380px;
+    height: 266px;
+    padding: 30px;
+}
+
+.header-daydh-item-right-text {
+    width: 240px;
+    height: 150px;
+    text-transform: none;
+    margin-bottom: 30px;
+    cursor: text;
+}
+
+.header-daydh-item-right-buying {
+    text-decoration: none;
+    font-size: 1.6rem;
+    background-color: var(--colorText);
+    padding: 12px 34px;
+    font-weight: 700;
+    color: #fff;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.header-daydh-image-right {
+    min-width: 39%;
+    max-width: 39%;
+    min-height: 96%;
+    max-height: 96%;
+    margin-right: 30px;
+    cursor: default;
+}

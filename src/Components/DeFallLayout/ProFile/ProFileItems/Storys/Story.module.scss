@@ -1,0 +1,42 @@
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-logo {
+    margin-bottom: 20px;
+}
+
+.story-titles {
+    padding-bottom: 32px;
+}
+
+.story-title {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    color: var(--colortext);
+    text-transform: uppercase;
+}
+
+.story-texts {
+    width: 852px;
+    padding-bottom: 90px;
+}
+
+.story-text {
+    font-size: 1.6rem;
+    line-height: 26px;
+    color: rgba(22, 26, 33, 0.6);
+    text-align: center;
+}
+
+.story-img {
+    width: 100%;
+}
+
+.story-image {
+    width: 100%;
+    height: 674px;
+}

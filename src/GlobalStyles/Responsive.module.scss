@@ -1,0 +1,37 @@
+/* // ipad */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .headerippro {
+        padding: 0 16px;
+    }
+
+    .body-shipippro {
+        margin: 0 4px;
+    }
+
+    .imgippro {
+        height: 210px;
+    }
+
+    .img3ippro {
+        width: 644px;
+    }
+}
+
+/* //ipad pro */
+@media (min-width: 1023) and (max-width: 1239px) {
+    .headerippro {
+        padding: 0 16px;
+    }
+
+    .imgippro {
+        height: 210px;
+    }
+
+    .search-inputippro {
+        margin-left: 150px;
+    }
+}
+
+/* // iphone */
+@media (max-width: 739px) {
+}

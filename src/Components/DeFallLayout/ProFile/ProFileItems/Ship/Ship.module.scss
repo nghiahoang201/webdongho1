@@ -1,0 +1,26 @@
+.body-ships {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #ecebea;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.body-ship {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 42px;
+}
+
+.body-ship-icon {
+    margin-right: 8px;
+}
+
+.body-ship-text {
+    font-size: 1.4rem;
+    color: var(--colorText);
+    font-weight: 500;
+    text-transform: uppercase;
+}

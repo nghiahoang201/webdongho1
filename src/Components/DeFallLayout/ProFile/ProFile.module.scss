@@ -1,0 +1,73 @@
+@import '../../../GlobalStyles/Responsive.module.scss';
+.wrapper-body {
+    background-color: var(--colorweb);
+}
+
+.img-slider {
+    height: 676px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-slider-img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.body-slider-desc {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    padding: 92px 16px 32px;
+    text-align: center;
+}
+
+.body-slider-desc-text1 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.body-slider-desc-text2 {
+    font-size: 4.6rem;
+    line-height: 4.6rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.body-slider-desc-text3 {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.body-slider-link-curnon {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 16px 50px;
+    border: 1px solid #f8f7f4;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+        color: #fff;
+        background-color: rgba(154, 189, 207, 0.998);
+    }
+}
+
+// ship

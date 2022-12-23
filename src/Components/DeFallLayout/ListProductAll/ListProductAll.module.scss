@@ -1,0 +1,219 @@
+@import '../../../GlobalStyles/Responsive.module.scss';
+
+.wrapper-items-product {
+    padding: 30px 16px 32px;
+}
+
+.items-product {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+}
+
+.items-product-link {
+    position: relative;
+    display: inline-block;
+}
+
+.items-product-link:hover .icon {
+    color: var(--colorText);
+    background-color: #f8f7f4;
+}
+
+.img {
+    height: 260px;
+    object-fit: cover;
+}
+
+.product-sellers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ff5e57;
+    color: #fff;
+    padding: 7px 12px;
+    margin-left: 16px;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    border-radius: 100px;
+}
+
+.title-icon {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+}
+
+.title {
+    font-size: 2.2rem;
+    color: #f8f7f4;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    color: #f8f7f4;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// list-product
+
+.wrapper {
+    margin: 100px 0;
+}
+
+.list-products {
+    text-align: center;
+}
+
+.list-products-title-bestsellers {
+    padding-bottom: 28px;
+}
+
+.list-products-title {
+    font-size: 3.4rem;
+    font-weight: 400;
+    color: var(--colorText);
+    text-transform: uppercase;
+    line-height: 3.4rem;
+}
+
+.list-products-link {
+    text-decoration: none;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.list-products-textlink {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--colorText);
+    text-transform: uppercase;
+}
+
+.list-products-icon {
+    width: 16px;
+    height: 16px;
+    color: var(--colorText);
+    margin-bottom: 2px;
+}
+
+.product-best-sellers {
+    position: relative;
+    &:hover {
+        box-shadow: rgb(0 0 0 / 15%) 0px 0px 40px;
+        animation: hide linear 0.4s;
+        transform: translateY(-1px);
+    }
+}
+.product-best-sellers:hover .product-btn {
+    display: block;
+}
+@keyframes hide {
+    from {
+        box-shadow: rgb(0 0 0 / 15%) 0px 0px 0;
+    }
+    to {
+        box-shadow: rgb(0 0 0 / 15%) 0px 0px 40px;
+    }
+}
+
+.product-link {
+    text-decoration: none;
+}
+
+.product-img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.product-btn {
+    width: 100%;
+    height: 56px;
+    max-height: 56px;
+    min-height: 56px;
+    font-size: 1.6rem;
+    color: var(--colorText);
+    background-color: #ecebea;
+    border: 2px solid #f8f7f4;
+    padding: 1px 6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+
+    &:hover {
+        color: #f8f7f4;
+        background-color: var(--colorText);
+    }
+}
+
+.product-texttype {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.4rem;
+    margin-top: 14px;
+    text-transform: uppercase;
+}
+
+.product-textname {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #000;
+    margin-top: 14px;
+    text-transform: uppercase;
+}
+
+.product-prices {
+    padding: 12px 0 16px 0;
+    cursor: text;
+}
+
+.product-newprice {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--colorText);
+    line-height: 1.6rem;
+}
+
+.product-price {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--colorText);
+    line-height: 1.4rem;
+    opacity: 0.6;
+    margin-left: 8px;
+    text-decoration: line-through;
+}

@@ -1,0 +1,141 @@
+.wrapper-footer {
+    padding: 63px 16px 80px 16px;
+    background-color: var(--colorweb);
+    border-top: 1px solid #cacbca;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-register-title {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    color: var(--colorText);
+    padding-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.footer-register-sex-input {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.footer-register-sex {
+    background: #f8f7f4;
+    border: 1px solid #d6d6d4;
+    padding: 15px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
+.footer-register-input {
+    background: #f8f7f4;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #161a21;
+    width: 294px;
+    padding: 13px;
+    border: 1px solid #d6d6d4;
+    outline: none;
+}
+
+.footer-register-emails {
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.footer-register-email {
+    width: 100%;
+    background: #f8f7f4;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--colorText);
+    padding: 15.9px;
+    border: 1px solid #d6d6d4;
+    outline: none;
+}
+
+.footer-register-btn {
+    cursor: pointer;
+    width: 100%;
+    background: #a0a1a5;
+    border: none;
+    padding: 18px 0;
+    margin: 5px 0 0;
+}
+
+.footer-register-btn:hover .footer-register-btn-text {
+    opacity: 0.7;
+}
+
+.footer-register-btn-text {
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #f8f7f4;
+    text-transform: uppercase;
+}
+
+.footer-contact-title {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    padding: 0 0 32px;
+    color: var(--colorText);
+    margin: 0;
+}
+
+.footer-contact-text {
+    padding: 0 0 22px;
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    color: var(--colorText);
+}
+
+.footer-contact-imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 2px 0 14px;
+}
+
+.footer-imgpays {
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-imgpay {
+    width: 56px;
+    height: 56px;
+}
+
+.footer-boxstror-title {
+    padding: 0 0 32px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--colorText);
+}
+
+.footer-boxstror-text {
+    padding: 0 0 22px;
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--colorText);
+}
+
+.footer-boxstror-text1 {
+    padding-bottom: 40px;
+}

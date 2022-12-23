@@ -1,0 +1,26 @@
+const Routes = {
+    Home: '/',
+    Product: '/product',
+    ProductBestSellersPage: '/productBestSellersPage',
+    ProductNuBestSellersPage: '/productNuBestSellersPage',
+    ProductPkNamPage: '/productPkNamPage',
+    ProductPkNuPage: '/productPkNuPage',
+    ProductDaydhPage: '/productDaydhPage',
+    ProductDaydhNuPage: '/productDaydhNuPage',
+    ProductNu: '/productNu',
+    KashmirPage: '/productKashmir',
+    WeimarPage: '/productWeimar',
+    ColosseumPage: '/productColosseum',
+    JacksonPage: '/productJackson',
+    DetroitPage: '/productDetroit',
+    FuturaPage: '/productFutura',
+    WhitesandsPage: '/productWhitesands',
+    MelissaniPage: '/productMelissani',
+    MorainePage: '/productMoraine',
+    HamiltonPage: '/productHamilton',
+    ProductOrderPage: '/productOrderPage',
+    ProductOrderPkPage: '/productOrderPkPage',
+    CartOrderPage: '/cartOrderPage',
+};
+
+export default Routes;

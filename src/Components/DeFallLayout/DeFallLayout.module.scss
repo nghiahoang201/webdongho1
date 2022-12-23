@@ -1,0 +1,161 @@
+@import '../../GlobalStyles/Responsive.module.scss';
+
+// css header DefallLayout
+.wrapper-header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--colorweb);
+    position: fixed;
+    border-bottom: 1px solid #cacbca;
+    z-index: 15;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    padding: 0 100px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    list-style: none;
+    font-size: 1.6rem;
+    color: var(--colorText);
+    padding: 26px 0;
+}
+
+.menu-nam {
+    display: none;
+}
+
+.menu-nu {
+    display: none;
+}
+
+// hover menu
+.header-hover-nam:hover .menu-nam {
+    display: block;
+}
+
+.header-hover-nu:hover .menu-nu {
+    display: block;
+}
+
+.header-logo {
+    margin-right: 110px;
+}
+
+.header-btn-items {
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+    cursor: pointer;
+    position: relative;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-btn {
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 26px 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.header-btn-quatity {
+    position: absolute;
+    font-size: 1.4rem;
+    top: 12px;
+    right: 112px;
+    width: 22px;
+    height: 22px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.header-btn-text {
+    padding-right: 10px;
+    font-size: 1.6rem;
+    color: var(--colorText);
+}
+
+.header-icon-search {
+    margin-right: 50px;
+}
+
+// header-curnon
+.header-text-curnon {
+    position: relative;
+}
+
+.header-text-curnon:hover .header-menu-curnon {
+    display: block;
+}
+
+.header-menu-curnon {
+    position: absolute;
+    top: 78px;
+    left: -34px;
+    width: 168px;
+    padding: 8px 0;
+    background-color: #fffc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    display: none;
+    cursor: default;
+    z-index: 100;
+}
+
+.header-menu-curnon-item {
+    list-style: none;
+    padding: 6px 24px;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(199, 204, 210, 0.333);
+        color: #a1a1a2;
+    }
+}
+
+.header-menu-curnon-item:nth-child(1) {
+    margin-top: 22px;
+}
+
+.header-menu-curnon-item:nth-child(3) {
+    margin-bottom: 22px;
+}
+
+.header-menu-curnon-text {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #a1a1a2;
+
+    &:hover {
+        color: #a1a1a2;
+    }
+}
+
+// header -search
+
+.search {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.218);
+    z-index: 15;
+}
